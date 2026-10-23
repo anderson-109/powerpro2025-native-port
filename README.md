@@ -1,4 +1,4 @@
-# PowerPro 2025 native Apple port — private source backup
+# PowerPro 2025 native Apple port — source and validation
 
 This repository contains a source snapshot of the local nxnative compatibility-layer work for Powerful Pro Baseball 2024–2025, update 1.13.0 (`0100D1C01C194000`), plus validation reports. It is an experimental local port and does not establish complete game compatibility.
 
@@ -60,7 +60,7 @@ The following references appear in the vendored Ryujinx.Common project. The vers
 - [Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere): Horizon synchronization semantics reference. Reference use does not mean the Atmosphere kernel is linked into this app.
 - yuzu: credited by nxnative for Maxwell encodings/kernel cross-checks. A reliable current original GitHub URL is not established here; no unrelated mirror is substituted.
 - [SciresM/hactool](https://github.com/SciresM/hactool): historical extraction-tool credit in nxnative, not the current LibHac extraction executable.
-- [realskyrin/ns-game-apple-arm-port](https://github.com/realskyrin/ns-game-apple-arm-port): the native-port skill/workflow requested for this work. Guidance is not linked runtime code, and the skill itself is not copied into this backup.
+- [realskyrin/ns-game-apple-arm-port](https://github.com/realskyrin/ns-game-apple-arm-port): explicitly consulted as a reference for this port, including the native-port workflow, diagnostics and platform-validation approach. This reference is acknowledged separately from incorporated code; the skill itself is not copied into this repository.
 
 For retained notices and detailed upstream modifications, see the [third-party inventory](nxnative/dm/third_party/README.md). No blanket MIT statement overrides a component's own license. Unrecorded revisions and unavailable source URLs are explicitly marked rather than guessed.
 
